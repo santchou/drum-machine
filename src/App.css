@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: purple;
+}
+
+.machine {
+  display: flex;
+  flex-direction: column;
+}
+
+#drum-machine {
+  width: 400px;
+  margin: 10% auto;
+  border: 4px solid yellow;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  background-color: #bf33cc;
+}
+
+#control-drum-pad {
+  width: 320px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#qqqq,
+#sound1,
+#wwww,
+#sound2,
+#eeee,
+#sound3,
+#aaaa,
+#sound4,
+#ssss,
+#sound5,
+#dddd,
+#sound6,
+#zzzz,
+#sound7,
+#xxxx,
+#sound8,
+#cccc,
+#sound9 {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: green;
+}
+
+#control-another {
+  width: 300px;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+#display {
+  width: 150px;
+  height: 30px;
+  background-color: purple;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 110px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: bold;
+}
